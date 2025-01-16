@@ -1,0 +1,4 @@
+pandas==2.2.2
+scikit-learn==1.5.1
+catboost==1.2.5
+SQLAlchemy==2.0.34
