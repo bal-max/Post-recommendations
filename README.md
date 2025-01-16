@@ -61,11 +61,6 @@ uvicorn my_app:app --host 0.0.0.0 --port 8000
   - `time` (datetime): Временная метка для фильтрации постов.
   - `limit` (int): Максимальное количество рекомендаций.
 
-- **Пример запроса**:
-  ```bash
-  curl -X GET "http://localhost:8000/post/recommendations/?id=123&time=2021-12-14T14:00:00&limit=5"
-  ```
-
 ---
 
 ## Зависимости
